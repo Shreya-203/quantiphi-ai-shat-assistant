@@ -1,0 +1,56 @@
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.history-item {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-item:hover,
+.history-item.selected {
+  background: #dedff0;
+}
+
+.sidebar-note {
+  color: #777b8b;
+  font-size: 12px;
+  margin-top: 24px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.header-actions > button,
+.copy-button {
+  padding: 8px 12px;
+  border: 1px solid #d5d7e1;
+  border-radius: 8px;
+  background: white;
+}
+
+.copy-button {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
